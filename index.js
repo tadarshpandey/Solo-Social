@@ -14,11 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
             modalTitle.textContent = title || 'Success!';
             modalTitle.style.color = '#a8ffb2';
             modalOkBtn.style.background = '#28a745';
+            modalOkBtn.textContent = 'Awesome';
         } else {
             modalIcon.textContent = '❌';
             modalTitle.textContent = title || 'Oops!';
             modalTitle.style.color = '#ff8484';
             modalOkBtn.style.background = '#dc3545';
+            modalOkBtn.textContent = 'Try Again';
         }
         modalMessage.textContent = message;
         modal.classList.remove('hidden');

@@ -19,7 +19,8 @@ app.use(express.static(__dirname));
 // MongoDB connection
 mongoose.connect(MONGO_URI)
   .then(() => {
-    console.log('Successfully connected to MongoDB local server database');
+    const isCloud = MONGO_URI.includes('mongodb+srv://');
+    console.log(`Successfully connected to MongoDB ${isCloud ? 'Cloud (Atlas)' : 'Local'} database`);
   })
   .catch((err) => {
     console.error('Error connecting to MongoDB database:', err.message);
