@@ -1,0 +1,8 @@
+>> Now Society is Not So Social.\
+
+
+
+i want an html form in table tag mean prepare table inside form tage in rows and in 
+table data put lables and input and the form is about regitering people for some hours of Daysp they be with them for 
+that time duration form include users name something like there contact, choosing there partner to be....there age group...
+time duration.....date n day and thats it

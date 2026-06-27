@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Social</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+        <nav>
+            <p><strong>Solo Social</strong></p>
+
+            <a href="#container-head">home</a>
+            
+            <a href="#about">about</a>
+            <a href="#contact">connect</a>
+            
+        </nav>
+
+
+
+    </div>
+
+    <div id="container">
+
+        <div id="container-head">
+            <h1>Society is Not Social. 🫂</h1>
+            <hr>
+            <p>
+                Hiii.. welcome to our service.....if you are there then definetly you 
+                felt something hollow inside you that brings you to there....some 
+                kind of fear, nervousness, awkward situations that make you bring-up there 
+                and We ennsure you get what you want..
+                get your partner that make you feel normal, casual, and gives you space to do whatever... which
+                generally you feared or feel nervous but in actual it is not..... well that is just 
+                uniqueness from other side of coin.
+
+                Welcome here Champ....Book your choice and feel the spirit in you for a moment...
+
+            </p>
+
+            <button>Choose yours ➕</button>
+
+
+
+
+        </div>  
+        
+        <div id="container-form">
+            <form action="#" method="post">
+
+        <table border="1" cellpadding="10" cellspacing="0">
+
+            <tr>
+                <td><label for="name">Full Name</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="phone">Contact Number</label></td>
+                <td><input type="tel" id="phone" name="phone" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email Address</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="partner">Choose Companion</label></td>
+                <td>
+                    <select id="partner" name="partner">
+                        <option value="">--Select--</option>
+                        <option>Friend</option>
+                        <option>Volunteer</option>
+                        <option>Guide</option>
+                        <option>Mentor</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="age">Age Group</label></td>
+                <td>
+                    <select id="age" name="age">
+                        <option>18-25</option>
+                        <option>26-35</option>
+                        <option>36-50</option>
+                        <option>51+</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="duration">Time Duration</label></td>
+                <td>
+                    <select id="duration" name="duration">
+                        <option>1 Hour</option>
+                        <option>2 Hours</option>
+                        <option>4 Hours</option>
+                        <option>Half Day</option>
+                        <option>Full Day</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="date">Date</label></td>
+                <td><input type="date" id="date" name="date"></td>
+            </tr>
+
+            <tr>
+                <td><label for="day">Day</label></td>
+                <td>
+                    <select id="day" name="day">
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                        <option>Sunday</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="notes">Additional Notes</label></td>
+                <td>
+                    <textarea id="notes" name="notes" rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+        </div>
+
+        <div id="about">
+            <p>
+                <strong>About Us</strong>
+
+                
+
+            </p>
+
+            <p>
+                Welcome to Companion Connect
+
+                Life isn't always about being alone. Sometimes, all you need is someone by your side to make unfamiliar situations feel comfortable.
+
+                Whether it's attending an event, exploring a new place, practicing social skills, or simply wanting someone to share a few hours with, we're here to help.
+
+                If you've ever felt nervous, awkward, anxious, or out of place, you're not alone. Our goal is to connect you with a companion who helps you feel relaxed, confident, and comfortable in the moment.
+
+                We believe confidence grows through experiences—not by avoiding them. The right company can turn hesitation into courage and uncertainty into memories.
+
+                Choose your companion, book your preferred date and time, and take the first step toward becoming a more confident version of yourself.
+
+                **Welcome aboard, Champ. Your next experience starts here.**
+            </p>
+        </div>
+
+
+    </div>
+
+    <footer id="contact">
+
+    <h3>Companion Connect</h3>
+
+    <p>
+        Making every moment easier, more comfortable, and more confident.
+        Find the right companion for your journey.
+    </p>
+
+    <p>&copy; 2026 Companion Connect. All Rights Reserved.</p>
+
+    <p>
+        Contact: support@companionconnect.com <br>
+        Phone: +91 98765 43210
+    </p>
+
+</footer>
+
+    <!-- Status Notification Modal -->
+    <div id="status-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+            <span id="modal-close" class="modal-close-btn">&times;</span>
+            <div class="modal-icon" id="modal-icon">🎉</div>
+            <h2 id="modal-title">Success!</h2>
+            <p id="modal-message">Your registration has been saved successfully.</p>
+            <button id="modal-ok-btn" class="modal-btn">Awesome</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
